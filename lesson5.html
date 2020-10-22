@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<!-- padding, border, margin, overflow -->
+
+<head>
+    <title>21312 Julio Costa</title>
+    <link rel="stylesheet" href="css/lesson5style.css">
+</head>
+
+<body>
+    <figure>
+        <img src="images/netflixlogo.png" alt="Netflix Logo" class="logo1">
+    </figure>
+    <h1>Register Now For a Free-Month Trial of Netflix!</h1>
+    <div id="inputs">
+        <form action="/tacos">
+            <p>
+                <label for="user">Username</label>
+                <input type="username" id="user" name="username" placeholder="username" required>
+                <label for="pass">Password</label>
+                <input type="password" id="pass" name="password" placeholder="password" minlength="5" maxlength="15">
+            </p>
+            <label for="comm">Tell us how you know us!</label>
+            <p>
+                <textarea name="comment" id="comm" cols="40" rows="10" maxlength="250"
+                    placeholder="Your comment here."></textarea>
+            </p>
+            <button>Register Now!</button>
+        </form>
+    </div>
+    <p>Please check out our partners below:</p>
+    <div id="searches">
+        <form action="http://www.reddit.com/search">
+            <img src="images/redditlogo.png" alt="Logo of Reddit" class="logo2">
+            <label for="reddit">Search on Reddit!</label>
+            <input class="searchbar" type="text" id="reddit" name="q" placeholder="reddit">
+            <button>Search</button>
+        </form>
+        <br>
+        <form action="http://www.youtube.com/results">
+            <img src="images/youtubelogo.png" alt="Logo of Youtube" class="logo2">
+            <label for="youtube">Search on Youtube!</label>
+            <input class="searchbar" type="text" id="youtube" name="search_query" placeholder="youtube">
+            <button>Search</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
